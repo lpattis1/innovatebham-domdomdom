@@ -1,0 +1,47 @@
+.parent-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background: red;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: rgb(221, 5, 5);
+  transition: 0.3s background ease-in;
+}
+
+.square-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.square {
+  background-color: black;
+  height: 5rem;
+  width: 5rem;
+  color: white;
+  cursor: pointer;
+}
+
+.heading-id {
+  color: white;
+  font-size: 2rem;
+  margin: auto !important;
+  text-align: center;
+  transform: translateY(50%);
+}
